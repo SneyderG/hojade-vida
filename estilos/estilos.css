@@ -1,0 +1,177 @@
+/*selector universal*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    max-width: 100%;
+    background-color: rgb(255, 254, 254);
+  /*   margin: 120px;
+    padding: 120px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.boton{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}
+.content{
+    width: 85%;
+    
+    
+}
+.encabezado{
+    border-bottom: 5px solid rgb(10, 10, 10) ;
+    padding-bottom: 20px;
+
+}
+.contacto{
+    margin-right: 5%;
+}
+
+.encabezado-flex{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../multimedia/fondo.h);
+  /*   background-position: 1000px; */
+    border-bottom: solid rgb(8, 8, 8);
+}
+.seccion{
+    margin-top: 15px;
+    border-bottom: 5px solid red;
+    
+}
+.seccion{
+    border-bottom: 1px solid red;
+    padding-bottom: 3px;
+    font-size: 25px;
+    border-bottom: 5px solid rgb(18, 18, 19);
+    font-family:cursive;
+    
+}
+
+
+
+.imagen{
+width: 25%;
+border: 6px solid var();
+border-radius: 50% ;
+text-align: center;
+box-shadow: 0 0 30% black ;
+justify-content: center;
+position: relative;
+top: 3rem;
+
+}
+
+.datos-personales{
+    text-align: center;
+    margin-right: 5%;
+}
+
+.contenedor-doble{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contenedor-cuadruple{
+    width: 100%;
+   /*  flex-wrap: wrap; */
+    /* padding: 3%; */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.bloque{
+    background-color: rgb(84, 121, 202);
+    padding: 15px;
+    border-radius: 30px;
+    flex: 1 1 25%;
+    min-width: 200px;
+    font-size: 15px;
+    
+    
+    
+}
+.seccion{
+    color: antiquewhite;
+}
+h2{
+    width: 90%;
+    display: flex;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    gap: 0.5rem;
+    color: antiquewhite;
+    background-color: rgb(193, 212, 224);
+}
+h3{
+    margin-top: 0;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(162, 157, 206);
+    color: antiquewhite;
+    
+}
+.p{
+    font-size: 5px;
+    color: antiquewhite;
+}
+.Redes{
+    display: flex;
+    justify-content: space-around;
+    justify-content: right;
+    gap: 2rem;
+    margin-right: 5%;
+}
+
+.twitter{
+    width: 55%;
+    height: 35%;
+    margin: 5%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.logo{
+    width: 6%;
+    height: 6%;
+    display: flex;
+}
+.logo-1{
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+.idiomas{
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 2rem;
+    margin-left: 8%;
+    
+    
+}
+
